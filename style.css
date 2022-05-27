@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(./image/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(241, 145, 80);
+    border: 1px solid grey;
+    position: fixed;
+    color: white;
+    height: 10vh;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    list-style: none;
+    cursor: pointer;
+}
+.logo span{
+    color: orangered;
+}
+#btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+#btn button{
+    padding: 5px;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    flex-direction: column;
+    padding: 10px;
+    display: none;
+    background-color: orangered;
+    position: absolute;
+}
+.sign.hide{
+    display: none;
+}
+.sign.show{
+    display: block;
+}
+.sign-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+.sign-btn #close{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+.sign-btn #signb{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+.active{
+    color: orangered;
+}
+
+.main-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 90vh;
+    color: white;
+}
+.text h1{
+    font-size: 70px;
+    margin-top: 10px;
+}
+.text span{
+    color: orangered;
+}
+.main-btn button{
+    padding: 5px;
+    background-color: orangered;
+    border: none;
+    margin-top: 20px;
+    color: white;
+}
+
+.programm-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.programm-text span{
+    color: orangered;
+}
+.programm-text .icon{
+    font-size: 40px;
+    color: orangered;
+}
+.programm-blocks{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+.block{
+    display: flex;
+    margin-top: 20px;
+}
+.block .i{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: orangered;
+    border-radius: 5px;
+}
+.block-text .p{
+    color: orangered;
+}
+.block-text{
+    line-height: 20px;
+    margin-left: 10px;
+}
+.today{
+    width: 100%;
+    background-image: url(./image/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.today-text h1{
+    font-size: 50px;
+    color: white;
+}
+.today-text span{
+    color: orangered;
+}
+.today-text p{
+    color: white;
+    line-height: 20px;
+}
+.today-btn button{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+.our{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    height: 50vh;
+}
+.ours{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 90%;
+}
+.our-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.our-text span{
+    color: orangered;
+}
+.our-text p{
+    line-height: 20px;
+    margin-top: 15px;
+}
+.our-icon i{
+    font-size: 40px;
+    color: orangered;
+    margin-top: 10px;
+}
+.our-blocks{
+    /* display: flex; */
+    justify-content: space-between;
+    flex-direction: column;
+    width: 20%;
+    height: 90vh;
+    /* margin-top: 20px; */
+}
+.our-block{
+    display: flex;
+    /* border: 1px solid grey; */
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    /* height: 80vh; */
+    margin-top: 20px;
+    box-shadow: 0 0 5px;
+    width: 300px;
+    /* margin-left: 10px; */
+}
+.our-block h3{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.our-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+.our-btn button{
+    padding: 10px;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 15px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+.first-classes img{
+    width: 650px;
+    height: 235px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.first-classes button{
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
+.first-text{
+    line-height: 20px;
+    margin-top: 10px;
+}
+.first-text p{
+    margin-top: 15px;
+}
+.expert-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.expert-text span{
+    color: orangered;
+}
+.expert-icon i{
+    color: orangered;
+    font-size: 40px;
+}
+.expert-blocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.expert-block{
+    width: 25%;
+    padding: 10px;
+    box-shadow: 0 0 10px;
+    margin-top: 30px;
+}
+.expert-block-text{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.expert-img{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.expert-img img{
+    width: 300px;
+    height: 150px;
+}
+.expert-text p{
+    line-height: 20px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+}
+.last-text{
+    font-size: 15px;
+    font-family: 'Tiro Kannada', serif;
+}
+.last-text span{
+    color: orangered;
+}
